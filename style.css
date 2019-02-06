@@ -1,0 +1,144 @@
+/* Navbar */
+
+nav {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+
+.nav-link{
+    opacity: 0.7;
+}
+
+.nav-link:hover{
+    opacity: 1;
+    background-color: #eee !important;
+}
+
+/*Header*/
+header{
+    /*Sizing of the element*/
+    height: 600px;
+    width:100%;
+    /*Set and adjust background image*/
+    background-image: url("header.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    /*Text properties for itself and all children elements*/
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1{
+    font-size: 80px;
+    padding: 40px;
+}
+
+header p{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 450;
+    padding-bottom: 30px;
+}
+
+/*About Us*/
+.about {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+.about span{
+    width: 200px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.about i {
+   /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #5cb85c;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+    
+/*Team*/
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    /*Object fit will crop and center image based on width and height*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+/*Get Involved*/
+.getinvolved {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #5cb85c;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.getinvolved h1{
+    color: #fff;
+}
+
+.getinvolved .options {
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.getinvolved i{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    
+}
+
+/*Contact*/
+.contact{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact .input-group{
+  margin-bottom: 25px;
+}
+
+.contact i{
+    padding:15px;
+}
+
+.contact .btn{
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f08080;
+  color: #fff;
+}
+
+.contact .btn:hover{
+  background-color: #a85959 !important;
+  color: #fff !important;
+}
+
+footer i{
+    margin:10px;
+}
